@@ -511,7 +511,7 @@ pararBot(){
 executarBot(){
   clear
 banner
-  chave=$(curl -sSL "https://raw.githubusercontent.com/CoutySSH/SSH-WEB/main/chave") &>/dev/null
+  chave=$(curl -sSL "https://raw.githubusercontent.com/Digulgasoft/SSH-WEB/main/chave") &>/dev/null
   key=$(cat /bin/ppweb/botpag/chave_inst) &>/dev/null
     
          if [[ "$key" = "$chave" ]]
@@ -542,7 +542,7 @@ banner
 verificar_chave(){
 clear
 banner
-chave=$(curl -sSL "https://raw.githubusercontent.com/CoutySSH/SSH-WEB/main/chave") &>/dev/null
+chave=$(curl -sSL "https://raw.githubusercontent.com/Digulgasoft/SSH-WEB/main/chave") &>/dev/null
   
   if [[ ! -f /bin/ppweb/botpag/chave_inst ]]
   then
