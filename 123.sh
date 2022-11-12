@@ -335,7 +335,7 @@ echo ""
 echo -e "SSH WEB" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "                              \033[1;31mBy CONEXAO NET\033[1;36m" | lolcat
 echo ""
-chave=$(curl -sSL "https://raw.githubusercontent.com/CoutySSH/SSH-WEB/main/chave") &>/dev/null
+chave=$(curl -sSL "https://raw.githubusercontent.com/Digulgasoft/SSH-WEB/main/chave") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
